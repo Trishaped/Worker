@@ -8,6 +8,6 @@ import (
 func main() {
 
 	fmt.Println("Trishaped worker")
-	server.Connect()
+	server.Connect("localhost:7777")
 
 }
